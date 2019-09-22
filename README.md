@@ -1,6 +1,6 @@
 # Be-Burger
 
-<img src="assets/img/logoburger.png" width="50%" height="50%" />
+<img src="assets/img/nobug.jpg" width="50%" height="50%" />
 
 Be-Burger is a website that I created and design from scratch as an exercise to learn how to use Bootstrap.
 
