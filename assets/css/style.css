@@ -11,6 +11,11 @@ body {
   background-image: url("../img/24px (4).svg");
 }
 
+.hov:hover {
+  color: #ffbb6a !important;
+  text-decoration: none;
+}
+
 .logo_blanc {
   width: 40px;
 }
