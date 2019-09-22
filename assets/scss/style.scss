@@ -17,9 +17,18 @@ body {
   text-decoration: none;
 }
 
+.hov-acc {
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
 //Header
 .logo_blanc {
-  width: 40px;
+  width: 80px;
+  position: relative;
+  right: 0%;
 }
 
 header {
@@ -30,12 +39,12 @@ header {
 }
 
 .since {
-  font-size: 10px;
+  font-size: 16px;
   text-shadow: 0px 4px 4px #000000;
 }
 
 .taste {
-  font-size: 12px;
+  font-size: 18px;
   text-shadow: 0px 4px 4px #000000;
 }
 
@@ -44,23 +53,13 @@ header {
   color: #585858;
 }
 
-.logo_nav {
-  width: 11%;
-  position: absolute;
-  top: 0%;
-  right: 0%;
-  padding-right: 16px;
-}
-
 .citation {
-  font-size: 18px;
+  font-size: 24px !important;
   background-color: #ffbb6a;
-  width: 225px;
-  margin: auto;
 }
 
 .article_date {
-  font-size: 9px;
+  font-size: 16px;
   font-family: "Anonymous Pro", monospace;
 }
 
@@ -69,7 +68,7 @@ header {
 }
 
 .article_kappa {
-  font-size: 9px;
+  font-size: 14px;
 }
 
 .section_offer {
@@ -195,11 +194,11 @@ footer {
   }
 
   .taste {
-    font-size: 24px;
+    font-size: 28px;
   }
 
   .since {
-    font-size: 14px;
+    font-size: 24px;
   }
   .citation {
     font-size: 18px;
