@@ -53,7 +53,7 @@ header {
   line-height: 38px;
   color: #585858;
 }
-
+// CITATION - Landing page
 .citation {
   font-size: 24px !important;
   background-color: #ffbb6a;
@@ -71,7 +71,7 @@ header {
 .article_kappa {
   font-size: 14px;
 }
-
+// Rounded Img - Landing page
 .section_offer {
   border-radius: 150px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -109,6 +109,7 @@ footer {
   }
 }
 
+//RESPONSIVE FONT SIZE
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   body {
     font-size: 20px;
@@ -191,19 +192,7 @@ footer {
   }
 }
 
-//Css Resto
-
-//Nav
-
-.nav_burger {
-  line-height: 38px;
-  color: #585858;
-}
-
 // Section About us
-.aboutus_txt {
-  text-indent: 10px;
-}
 
 .adress_orange {
   color: #ffbb6a !important;
@@ -216,9 +205,7 @@ h1 {
   }
 }
 
-//CSS PICS
-
-//Nav PICS
+//PICS
 
 .pages {
   color: #505050;
@@ -227,8 +214,7 @@ h1 {
   }
 }
 
-//CSS Menu
-
+//Menu
 //Badges
 .badge-light {
   font-size: 16px;
@@ -245,10 +231,13 @@ h1 {
   background-color: #ff736a !important;
 }
 
-//CSS Contact
 //Forms Contact
 
 .submit {
   background-color: #ffbb6a;
-  color: white;
+  color: black;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
 }

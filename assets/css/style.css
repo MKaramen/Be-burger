@@ -181,15 +181,6 @@ footer {
   }
 }
 
-.nav_burger {
-  line-height: 38px;
-  color: #585858;
-}
-
-.aboutus_txt {
-  text-indent: 10px;
-}
-
 .adress_orange {
   color: #ffbb6a !important;
 }
@@ -227,6 +218,11 @@ h1 a {
 
 .submit {
   background-color: #ffbb6a;
+  color: black;
+}
+
+.submit:hover {
   color: white;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
