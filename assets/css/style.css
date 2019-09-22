@@ -216,10 +216,6 @@ footer {
   }
 }
 
-body {
-  font-family: "Andada", serif;
-}
-
 .custom-toggler .navbar-toggler-icon {
   background-image: url("../img/24px (4).svg");
 }
@@ -227,14 +223,6 @@ body {
 .nav_burger {
   line-height: 38px;
   color: #585858;
-}
-
-.logo_nav {
-  width: 11%;
-  position: absolute;
-  top: 0%;
-  right: 0%;
-  padding-right: 16px;
 }
 
 .aboutus_txt {
@@ -344,29 +332,12 @@ h1 {
   }
 }
 
-body {
-  font-family: "Andada", serif;
-}
-
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("../img/24px (4).svg");
-}
-
-.nav_burger {
-  line-height: 38px;
-  color: #585858;
-}
-
-.logo_nav {
-  width: 11%;
-  position: absolute;
-  top: 0%;
-  right: 0%;
-  padding-right: 16px;
-}
-
 .pages {
-  color: #ffbb6a;
+  color: #505050;
+}
+
+.pages:hover {
+  color: #ffbb6a !important;
 }
 
 footer {

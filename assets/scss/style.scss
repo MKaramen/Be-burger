@@ -227,9 +227,7 @@ footer {
 }
 
 //Css Resto
-body {
-  font-family: "Andada", serif;
-}
+
 //Nav
 
 .custom-toggler .navbar-toggler-icon {
@@ -241,13 +239,6 @@ body {
   color: #585858;
 }
 
-.logo_nav {
-  width: 11%;
-  position: absolute;
-  top: 0%;
-  right: 0%;
-  padding-right: 16px;
-}
 // Section About us
 .aboutus_txt {
   text-indent: 10px;
@@ -361,31 +352,16 @@ h1 {
 }
 
 //CSS PICS
-body {
-  font-family: "Andada", serif;
-}
-//Nav
 
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("../img/24px\ \(4\).svg");
-}
-
-.nav_burger {
-  line-height: 38px;
-  color: #585858;
-}
-
-.logo_nav {
-  width: 11%;
-  position: absolute;
-  top: 0%;
-  right: 0%;
-  padding-right: 16px;
-}
+//Nav PICS
 
 .pages {
-  color: #ffbb6a;
+  color: #505050;
+  &:hover {
+    color: #ffbb6a !important;
+  }
 }
+
 //footer
 footer {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #f7f7f7 94.68%),
