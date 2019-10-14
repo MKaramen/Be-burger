@@ -2,10 +2,11 @@
 body {
   font-family: "Andada", serif;
 }
+
 //Nav
 
 .logo {
-  width: 2.3em;
+  width: 1.5em;
   padding-top: 8px;
 }
 
@@ -53,6 +54,7 @@ header {
   line-height: 38px;
   color: #585858;
 }
+
 // CITATION - Landing page
 .citation {
   font-size: 24px !important;
@@ -71,6 +73,7 @@ header {
 .article_kappa {
   font-size: 14px;
 }
+
 // Rounded Img - Landing page
 .section_offer {
   border-radius: 150px;
@@ -104,6 +107,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+
   p {
     padding-left: 8px;
   }
@@ -129,6 +133,7 @@ footer {
 
   .footer_terms {
     font-size: 18px;
+
     p {
       padding-left: 16px;
     }
@@ -154,6 +159,7 @@ footer {
 
   .footer_terms {
     font-size: 16px;
+
     p {
       padding-left: 12px;
     }
@@ -176,6 +182,7 @@ footer {
   .since {
     font-size: 24px;
   }
+
   .citation {
     font-size: 18px;
   }
@@ -186,6 +193,7 @@ footer {
 
   .footer_terms {
     font-size: 18px;
+
     p {
       padding-left: 16px;
     }
@@ -200,6 +208,7 @@ footer {
 
 h1 {
   font-size: 32px;
+
   a {
     color: black;
   }
@@ -209,6 +218,7 @@ h1 {
 
 .pages {
   color: #505050;
+
   &:hover {
     color: #ffbb6a !important;
   }
@@ -236,6 +246,7 @@ h1 {
 .submit {
   background-color: #ffbb6a;
   color: black;
+
   &:hover {
     color: white;
     text-decoration: none;
