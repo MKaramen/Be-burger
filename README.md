@@ -25,7 +25,7 @@ The website is responsive and was designed for mobile first.
 
 ## More info
 
-Here is the result after 1 month of training as a junior Web Dev. I took me around 5 days to design and creat the entire website.
+Here is the result after 1 month of training as a junior Web Dev. It took me around 5 days to design and creat the entire website.
 
 ### Credit
 
