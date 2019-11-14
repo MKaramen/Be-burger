@@ -1,0 +1,62 @@
+
+! version = 2.0
+
+! var name = Bipboop boop
+
+! sub what's = what is 
+! sub don't = dont 
+! sub u = you 
+
++ [*]hello[*]
+- Hello Human.
+
++ what is your name
+- My name is <bot name>.
+ 
++ [*](opening|hours)[*] 
+- Monday to friday from 10am to 8pm.
+
++ [*]deliver[*]
+- Yes, we do deliver. 
+
++ [*]accounting[*]
+- Please stop.
+
++ [*]cogip[*]
+- I had enough of it.
+
++ * 
+- I don't understand.
+
++ [*]life[*]
+- 42
+
++ [*](burger|burgers)[*]
+- Our best burger is the Be-shy.
+
++[*](location|adress)[*]
+- Our Adress is Lorem ipsum dolor 40, 2948 Chicago.
+
++ [*](die|kill|cancer)[*]
+- <img  class="img_bot" width="200px" src="assets/img/feelsbadman.png">
+
++[*](kind|pepe)[*]
+- <img  class="img_bot" width="200px" src="assets/img/feelsgoodman.png">
+
++[*](best friend)[*]
+- <img  class="img_bot" width="200px" src="assets/img/feelsokayman.jpeg">
+
++[*]best\-friend[*]
+- <img  class="img_bot" width="200px" src="assets/img/feelsokayman.jpeg">
+
++[*](retarded|pepega)[*]
+- <img  class="img_bot" width="200px" src="assets/img/pepega.jpeg">
+
++[*](dick|cock)[*]
+- Are u retarded ? 
+
++ how are you
+- <img  width="200px" src="assets/img/feelsokayman.jpeg">
+
++[*]vegan[*]
+- <a href="menu.html/#salads"><img class="img-fluid img_bot" src="assets/img/salad1.jpg"></a>

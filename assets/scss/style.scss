@@ -1,6 +1,7 @@
 //CSS LANDING PAGE
 body {
   font-family: "Andada", serif;
+
 }
 
 //Nav
@@ -251,4 +252,33 @@ h1 {
     color: white;
     text-decoration: none;
   }
+}
+
+.inputBot {
+  width: 500px;
+  border: none !important;
+  border-bottom: solid 1px black !important;
+  font-size: 28px;
+
+  &:focus {
+    outline: none !important;
+  }
+}
+
+.footer_bot {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+}
+
+.bot_svg {
+  width: 300px;
+}
+
+#output {
+  font-size: 32px;
+}
+
+.img_bot {
+  width: 400px;
 }
