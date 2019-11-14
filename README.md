@@ -8,7 +8,7 @@ Be-Burger is a website that I created and design from scratch as an exercise to 
 
 <img src="ScreenshotApp/README_img.jpg">
 
-### <a href="https://mkaramen.github.io/restaurant-css-framework/" width="40%" height="40%" alt=""> Check it out ! </a>
+### <a href=https://mkaramen.github.io/Be-burger/" width="40%" height="40%" alt=""> Check it out ! </a>
 
 ## Responsive
 
