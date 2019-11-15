@@ -258,4 +258,8 @@ h1 a {
 .none {
   display: none;
 }
+
+.supported_img {
+  width: 50px;
+}
 /*# sourceMappingURL=style.css.map */
