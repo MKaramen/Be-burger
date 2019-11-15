@@ -262,4 +262,10 @@ h1 a {
 .supported_img {
   width: 50px;
 }
+
+.title_menu:hover {
+  text-decoration: none;
+  color: black;
+  cursor: initial;
+}
 /*# sourceMappingURL=style.css.map */

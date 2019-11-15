@@ -290,3 +290,11 @@ h1 {
 .supported_img {
   width: 50px;
 }
+
+.title_menu {
+  &:hover {
+    text-decoration: none;
+    color: black;
+    cursor: initial;
+  }
+}
