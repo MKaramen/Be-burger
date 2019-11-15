@@ -1,7 +1,7 @@
 // Classifier Variable
 let classifier;
 // Model URL
-let imageModelURL = "https://teachablemachine.withgoogle.com/models/qTDSd_Kj/";
+let imageModelURL = "https://teachablemachine.withgoogle.com/models/Nfm7vDBZ/";
 
 // Video
 let video;
@@ -61,25 +61,7 @@ function setup() {
 }
 
 function draw() {
-    switch (label) {
-        case "":
-            break;
-        case "Location":
-            inputElement.value = "location";
-            chat();
-            label = "";
-            break;
-        case "die":
-            inputElement.value = "die";
-            label = "";
-            chat();
-            break;
-        case "heart":
-            inputElement.value = "kind";
-            label = "";
-            chat();
-            break;
-    }
+    change_input(label);
 }
 
 // Get a prediction for the current video frame
@@ -98,7 +80,7 @@ function gotResult(error, results) {
 
     // The results are in an array ordered by confidence.
     // console.log(results[0])
-    if (results[0].confidence > 0.90) {
+    if (results[0].confidence > 0.80) {
         label = results[0].label;
     }
 
@@ -135,3 +117,29 @@ function loading_done() {
 
 // It's good to catch errors too!
 function loading_error() {}
+
+function change_input(name_of_imput) {
+    if (name_of_imput != "human") {
+        inputElement.value = name_of_imput;
+        chat();
+    }
+}
+// switch (label) {
+//     case "":
+//         break;
+//     case "location":
+//         inputElement.value = "location";
+//         chat();
+//         label = "";
+//         break;
+//     case "die":
+//         inputElement.value = "die";
+//         label = "";
+//         chat();
+//         break;
+//     case "kind":
+//         inputElement.value = "kind";
+//         label = "";
+//         chat();
+//         break;
+// }
