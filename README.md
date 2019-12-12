@@ -44,7 +44,9 @@ Sources :
 Matis Karamenderes
 10 september 2019
 
-<hr>
+<hr />
+
+## 14 november 2019
 
 # New Features
 
