@@ -43,3 +43,34 @@ Sources :
 
 Matis Karamenderes
 10 september 2019
+
+<hr>
+
+# New Features
+
+Added a chatbot where the client can ask questions about the restaurant.
+The chatbot also recognize a few images and responds to them.
+
+## Preview
+
+<img width="50%" src="ScreenshotApp/bot.png">
+
+## New technologies used
+
+<ul>
+    <li>RiveScript</li>
+    <li>Teachable Machine</li>
+    <li>p5</li>
+</ul>
+
+## About the AI
+
+I trained the AI with 50 images of each type, the results are pretty good. After the traning I tried to make the AI reconize drawings it didn't know. The results where great it worked 90% of the time. Here are the images I used :
+
+<img width="50%" src="ScreenshotApp/heart.png">
+<img width="50%" src="ScreenshotApp/delivery.png">
+<img width="50%" src="ScreenshotApp/location.png">
+
+## More info
+
+It was my first time using a neural newtork, it was a very interesting experience I had to learn more about the way it learns and how it works in order to make mine works.
